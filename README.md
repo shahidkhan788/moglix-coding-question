@@ -6,5 +6,5 @@ Example 3:Input: s = ""Output: 0
 
 Constraints:
 
-  1). 0 <= s.length <= 3 * 104 \
+  1). 0 <= s.length <= 3 * 10 * 4 \
   2). s[i] is '(', or ')'.
