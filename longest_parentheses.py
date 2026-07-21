@@ -18,9 +18,12 @@ def length_of_parenthesis(s):
                 print("String not following constraints rules, please try again...")
     else:
         print("Check the size of string.!")
+    
+    if len(temp) % 2 != 0:
+        temp = temp[:-1]
         
     return len(temp)
 
 
-s = ")()()"
+s = ")()()("
 print(length_of_parenthesis(s))
