@@ -1,0 +1,23 @@
+def length_of_parenthesis(s):
+    i = 0
+    temp = ''
+
+    if 0 <= len(s) <= 3 * 104:
+        for ch in s:
+            if i % 2 == 0:
+                if ch == '(':
+                    temp += ch
+                    i += 1
+            else:
+                if i % 2 != 0:
+                    if ch == ')':
+                        temp += ch
+                        i += 1
+    else:
+        print("Check the size of string.!")
+        
+    return len(temp)
+
+
+s = ")()()"
+length_of_parenthesis(s)
