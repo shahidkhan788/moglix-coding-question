@@ -23,4 +23,4 @@ def length_of_parenthesis(s):
 
 
 s = ")()()"
-length_of_parenthesis(s)
+print(length_of_parenthesis(s))
