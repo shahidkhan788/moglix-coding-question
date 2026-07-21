@@ -2,7 +2,7 @@ def length_of_parenthesis(s):
     i = 0
     temp = ''
 
-    if 0 <= len(s) <= 3 * (10 * 4):
+    if 0 <= len(s) <= 3 * (10 ** 4):
         for ch in s:
             if ch in '()':
                 if i % 2 == 0:
